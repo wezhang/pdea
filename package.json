@@ -1,0 +1,28 @@
+{
+  "name": "pdea",
+  "version": "1.0.0",
+  "description": "Personal Double Entry Accounting Tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wezhang/pdea.git"
+  },
+  "author": "Wei Zhang",
+  "license": "Apache License v2",
+  "bugs": {
+    "url": "https://github.com/wezhang/pdea/issues"
+  },
+  "homepage": "https://github.com/wezhang/pdea",
+  "dependencies": {
+    "charset-detector": "0.0.2",
+    "commander": "^2.9.0",
+    "csv": "^0.4.6",
+    "event-stream": "^3.3.2",
+    "iconv-lite": "^0.4.13",
+    "lodash": "^3.10.1",
+    "split": "^1.0.0"
+  }
+}
